@@ -20,6 +20,7 @@ matplotlib = "*"  # Don't pin version, other packages have complex version pins
 tqdm = "^4.66.1"
 pyam-iamc = "^2.1.0"
 ipykernel = "^6.28.0"
+netcdf4 = "^1.6.5"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.19.0"
