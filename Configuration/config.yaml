@@ -11,7 +11,7 @@ paths:
 # DATABASE
 # ============================================== #
 database:
-  name: 'ecemf_internal'
+  name: 'ecemf'
   username: 'none'
   password: 'none'
 

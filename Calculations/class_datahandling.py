@@ -29,7 +29,7 @@ class DataHandling:
         if self.settings['database']['username'] != 'none':
             pyam.iiasa.set_config(self.settings['database']['username'], self.settings['database']['password'])
         pyam.iiasa.Connection(self.settings['database']['name'])
-        df = pyam.read_iiasa('ecemf_internal', model=self.list_of_models, scenario=self.settings['scenarios'])
+        df = pyam.read_iiasa(self.settings['database']['name'], model=self.list_of_models, scenario=self.settings['scenarios'])
 
         def filters(df_i, model):
             if model == 'WITCH 5.0': # Remove ResidualFossil (old / erroneous scenario)
