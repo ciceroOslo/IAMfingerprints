@@ -14,7 +14,7 @@ readme = "README.md"
 python = ">=3.11,<3.12"
 PyYAML = "^6.0.1"
 pandas = "^2.1.4"
-xarray = "^2023.12.0"
+xarray = {extras = ["io"], version = "^2023.12.0"}
 numpy = "*"  # Don't pin version, other packages have complex version pins
 matplotlib = "*"  # Don't pin version, other packages have complex version pins
 tqdm = "^4.66.1"
