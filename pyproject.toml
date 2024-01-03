@@ -22,6 +22,7 @@ pyam-iamc = "^2.1.0"
 ipykernel = "^6.28.0"
 netcdf4 = "^1.6.5"
 dvc = {extras = ["ssh"], version = "^3.37.0"}
+plotly = "^5.18.0"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.19.0"
