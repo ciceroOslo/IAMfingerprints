@@ -1,0 +1,5 @@
+outs:
+- md5: c5d8507467a3fdf8c2aa96f0bed94684
+  size: 122096241
+  hash: md5
+  path: XRdata.nc
